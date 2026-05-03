@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/styles.css">
 </head>
+
 <body>
     <main class="container">
         <div class="main-content">
@@ -21,26 +23,29 @@
             <section class="search-card">
                 <div class="search-content">
                     <div class="input-container">
-                        <textarea rows="3" id="mood-textarea" placeholder="Digite como você está se sentindo ou o quer assistir..." class="mood-textarea"></textarea>
-                        <div class="examples">
-                            <h2 class="examples-title">Exemplos:</h2>
-                            <ul class="examples-list">
-                                <li>Quero algo engraçado para relaxar depois do trabalho.
-                                </li>
-                                <li>Estou procurando um treiller que me deixe na ponta da cadeira</li>
-                                <li>Algo romântico para assistir com minha namorada</li>
-                            </ul>
-                        </div>
-
-                        <button id="search-button" class="search-button">
-                            <span class="play-icon">&#9654</span>
-                            Encontrar filmes Perfeitos
-                        </button>
+                        <textarea rows="3" id="mood-textarea"
+                            placeholder="Digite como você está se sentindo ou o quer assistir..."
+                            class="mood-textarea"></textarea>
                     </div>
-                </div>
 
+
+                    <div class="examples">
+                        <h2 class="examples-title">Exemplos:</h2>
+                        <ul class="examples-list">
+                            <li>Quero algo engraçado para relaxar depois do trabalho.
+                            </li>
+                            <li>Estou procurando um treiller que me deixe na ponta da cadeira</li>
+                            <li>Algo romântico para assistir com minha namorada</li>
+                        </ul>
+                    </div>
+
+                    <button id="search-button" class="search-button">
+                        <span class="play-icon">&#9654</span>
+                        Encontrar filmes Perfeitos
+                    </button>
+                </div>
             </section>
-            <div id="results">
+            <div id="results" class="results">
                 <h2>Filmes Perfeitos para Você</h2>
                 <div id="movie" class="movie">
 
@@ -49,4 +54,5 @@
         </div>
     </main>
 </body>
+
 </html>

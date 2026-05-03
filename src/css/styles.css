@@ -19,7 +19,7 @@ color:#ffffff;
    justify-content: center;
 }
 .brand-header{
-    
+    margin: 20px 0;
 }
 
 .brand-header .container-logo{
@@ -27,6 +27,7 @@ color:#ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 16px;
 }
 .robot-image{
     width: 100px;
@@ -102,3 +103,13 @@ color:#ffffff;
     opacity: 0.8;
     margin-left: 15px;
 }
+
+.search-button:hover {
+    background-color: #ef40612;
+    box-shadow: 0 4px 12px rgba(229, 9, 20, 0.4);
+}
+
+.results {
+    display: none;
+}
+
