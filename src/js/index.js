@@ -23,3 +23,8 @@ function setupEventListeners() {
 
      searchButton.addEventListener('click', handleSearch);
 }
+
+function updateSearchButton() {
+    const hasText = moodInput.value.trim().length > 0;
+    searchButton.disabled = !hasText;
+}
