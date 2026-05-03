@@ -20,3 +20,6 @@ function setupEventListeners() {
             }
         }
     });
+
+     searchButton.addEventListener('click', handleSearch);
+}
