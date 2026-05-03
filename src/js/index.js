@@ -11,3 +11,12 @@ function setupEventListeners() {
     moodInput.addEventListener('input', function () {
         updateSearchButton();
     });
+
+     moodInput.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            if (!searchButton.disabled) {
+                handleSearch();
+            }
+        }
+    });
