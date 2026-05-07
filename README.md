@@ -47,7 +47,7 @@ O objetivo do **BotFlix** é oferecer uma experiência inteligente para recomend
 ---
 # 🖼️ Preview do Projeto
 
-![BotFlix Preview](assets/preview.png)
+![BotFlix Preview](./src/assets/preview.png.png)
 
 # 📌 Futuras Melhorias
 
