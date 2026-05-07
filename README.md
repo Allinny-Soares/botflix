@@ -45,9 +45,13 @@ O objetivo do **BotFlix** é oferecer uma experiência inteligente para recomend
 - ⚙️ N8N Automation  
 
 ---
-# 🖼️ Preview do Projeto
+# 🖼️ Representação n8n
 
-![BotFlix Preview](./src/assets/preview.png.png)
+![BotFlix Preview](./src/assets/n8n.png)
+
+# 🖼️ Representação Botflix
+
+![BotFlix Preview](./src/assets/botflix.png)
 
 # 📌 Futuras Melhorias
 
